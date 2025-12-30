@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" suppressHydrationWarning className='light'>
-      <body suppressHydrationWarning className={`${poppins.variable}`}>
+      <body suppressHydrationWarning className={`${poppins.variable}  dark:bg-zinc-950`}>
         {children}
         <DarkModeToggle />
       </body>
