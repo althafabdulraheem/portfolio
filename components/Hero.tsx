@@ -3,7 +3,7 @@ import { Download } from 'lucide-react';
 import { motion } from "framer-motion";
 export default function Hero() {
   return (
-    <div className="w-full p-2 flex flex-col-reverse flex-col sm:flex-row md:flex-row">
+    <div className=" dark:bg-zinc-950 w-full p-2 flex flex-col-reverse flex-col sm:flex-row md:flex-row ">
       <motion.div
         className="w-full sm:w-3/5 md:w-3/5 flex flex-col md:justify-center md:items-center h-[60vh] sm:h-[80vh] md:h-[80vh] "
         initial={{ opacity: 0, x: -80 }}
@@ -11,16 +11,16 @@ export default function Hero() {
         transition={{ duration: 1.5 }}
       >
         <div className="p-2">
-          <h1 className="text-5xl font-bold">
+          <h1 className="text-5xl font-bold dark:text-white">
             Hi! I'm <span className="text-cyan-800">Althaf Abdul Raheem</span>
           </h1>
-          <h1 className="text-3xl font-bold mt-2 mb-2">FullStack Developer</h1>
-          <p>
+          <h1 className="text-3xl font-bold mt-2 mb-2 dark:text-white">FullStack Developer</h1>
+          <p className="dark:text-white">
             I am a results-driven full-stack developer with expertise in
             designing, developing, and deploying robust web applications using
             modern technologies.
           </p>
-          <button className="flex gap-1 mt-2 bg-cyan-700 text-white p-4 rounded hover:bg-cyan-800">Resume <Download/></button>
+          <button onClick={() => { window.open("/althaf-cv.pdf", "_blank") }} className="flex gap-1 mt-2 bg-cyan-700 text-white p-4 rounded hover:bg-cyan-800 hidden sm:flex">Resume <Download /></button>
         </div>
       </motion.div>
       <div className=" w-full sm:w-2/5 flex md:justify-center md:items-center sm:h-[80vh]">
