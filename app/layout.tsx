@@ -11,10 +11,20 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: 'Althaf Abdul Raheem | Portfolio',
-  description: 'Portfolio of Althaf Abdul Raheem',
+  description:
+    'Portfolio of Althaf Abdul Raheem, a Full Stack Developer specializing in Laravel, PHP, and React.',
+  keywords: [
+    'Althaf Abdul Raheem',
+    'Full Stack Developer',
+    'Laravel Developer',
+    'PHP Developer',
+    'React Developer',
+  ],
   icons: {
     icon: '/favicon.ico',
     shortcut: '/favicon.ico',
+    apple: '/favicon.ico',
+
   }
 }
 export default function RootLayout({ children }: { children: React.ReactNode }) {

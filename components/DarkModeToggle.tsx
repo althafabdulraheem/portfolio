@@ -19,9 +19,9 @@ export default function DarkModeToggle() {
         onClick={() => {
           setIsDarkMode((prev) => !prev);
         }}
-        className="bg-cyan-700 rounded-[50%] w-[50px] h-[50px] fixed  sm:bottom-4 sm:right-4"
+        className="bg-cyan-700 rounded-[50%] w-[50px] h-[50px] fixed  bottom-4 right-4"
       >
-        <Moon className="flex justify-center w-full"/>
+        <Moon className="flex justify-center w-full" />
       </button>
     </>
   );
