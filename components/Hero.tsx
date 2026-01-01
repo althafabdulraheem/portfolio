@@ -28,7 +28,7 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 2 }}
-          className=" sm:block sm:mt-4 h-[400px] w-[400px] bg-cyan-800 absolute"
+          className="hidden sm:block sm:mt-4 h-[400px] w-[400px] bg-cyan-800 absolute"
           style={{ transform: "rotate3d(97, -29, 92, 106deg)" }}
         ></motion.div>
         <motion.img
