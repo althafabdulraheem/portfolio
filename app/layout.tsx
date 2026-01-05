@@ -2,7 +2,7 @@ import './globals.css'
 import { Poppins } from 'next/font/google'
 import DarkModeToggle from '@/components/DarkModeToggle';
 import type { Metadata } from 'next'
-import { GoogleTagManager } from '@next/third-parties/google'
+import { GoogleAnalytics } from '@next/third-parties/google'
 const poppins = Poppins({
   subsets: ['latin'],
   display: 'swap',
@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     apple: '/favicon.ico',
 
   },
-  metadataBase: new URL('https://atfar.netlify.app/'),
+  metadataBase: new URL('https://atfar.netlify.app'),
 
   alternates: {
-    canonical: 'https://atfar.netlify.app/',
+    canonical: 'https://atfar.netlify.app',
   },
 
   openGraph: {
@@ -69,7 +69,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body suppressHydrationWarning className={`${poppins.variable}  dark:bg-zinc-950`}>
         {children}
         <DarkModeToggle />
-        <GoogleTagManager gtmId="G-60C7DPWKC9" />
+        <GoogleAnalytics gaId="G-60C7DPWKC9" />
       </body>
     </html>
   )
