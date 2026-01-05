@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     'React Developer',
   ],
   verification: {
-    google: 'google-site-verification=UolZXO-w_er4QZPKj64-N9nJ6crAxhegTRFe9-ANQRQ',
+    google: 'UolZXO-w_er4QZPKj64-N9nJ6crAxhegTRFe9-ANQRQ',
   },
   icons: {
     icon: '/favicon.ico',
