@@ -11,7 +11,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: 'Althaf Abdul Raheem | Portfolio',
+  title: 'Althaf Abdul Raheem | Full-Stack PHP Laravel Developer',
   description:
     'Portfolio of Althaf Abdul Raheem, a Full Stack Developer specializing in Laravel, PHP, and React.',
   keywords: [

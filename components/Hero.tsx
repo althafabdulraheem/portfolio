@@ -14,11 +14,9 @@ export default function Hero() {
           <h1 className="text-5xl font-bold dark:text-white">
             Hi! I'm <span className="text-cyan-800">Althaf Abdul Raheem</span>
           </h1>
-          <h1 className="text-3xl font-bold mt-2 mb-2 dark:text-white">FullStack Developer</h1>
+          <h1 className="text-3xl font-bold mt-2 mb-2 dark:text-white">Full-Stack Web Developer</h1>
           <p className="dark:text-white">
-            I am a results-driven full-stack developer with expertise in
-            designing, developing, and deploying robust web applications using
-            modern technologies.
+            I am a results-oriented Full-Stack Developer with strong expertise in backend development using PHP & Laravel and frontend technologies. I specialize in building REST APIs, responsive web applications, and performance-optimized systems.
           </p>
           <button onClick={() => { window.open("/althaf-cv.pdf", "_blank") }} className="flex gap-1 mt-2 bg-cyan-700 text-white p-4 rounded hover:bg-cyan-800 hidden sm:flex">Resume <Download /></button>
         </div>
